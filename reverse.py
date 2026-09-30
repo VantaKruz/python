@@ -1,3 +1,7 @@
-num=(input("Enter a number: "))
-num=num[::-1]
-print(num)
+num=int(input("Enter a number: "))
+
+while (num!=0):
+    temp=num%10
+    print(int(temp), end='')
+    num=num//10
+print("")
