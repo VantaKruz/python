@@ -1,5 +1,5 @@
 print("Enter 1 to convert miles to kilometres")
-ch=int(input("Enter 2 to convert kilometres to miles"))
+ch=int(input("Enter 2 to convert kilometres to miles: "))
 mil=0
 kilo=0
 match ch:
