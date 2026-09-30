@@ -6,4 +6,4 @@ if(num1>num2):
 elif(num2>num1):
     print(f"{num2} is greater")
 else:
-    print("Both numbers are equal")
+    raise ValueError("Both number are same")
